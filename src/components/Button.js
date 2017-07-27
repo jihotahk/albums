@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
 //Don't hardcode anything within onPress, to make button reusable
+//rely on props and props.children
 
 const Button = ({ children, onButtonPress }) => {
     const { buttonStyle, textStyle } = styles;
